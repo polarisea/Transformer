@@ -1,0 +1,13 @@
+https://drive.google.com/file/d/16XmhMKvl4Ee4QBHZwKjjc3xz-Vzoay98/view?usp=sharing
+
+
+wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=FILEID' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=16XmhMKvl4Ee4QBHZwKjjc3xz-Vzoay98" -O model.pt && rm -rf /tmp/cookies.txt
+
+
+https://drive.google.com/file/d/1-KKH0rsYWCvF1Om-JdHOweUT9s7E5QYt/view?usp=sharing
+wget --no-check-certificate 'https://docs.google.com/uc?export=download&id=1-KKH0rsYWCvF1Om-JdHOweUT9s7E5QYt' -O src_vocab.pt
+
+
+https://drive.google.com/file/d/1-BXoDYv-h0EMGz5f4hoPoceZrKgeuJLX/view?usp=sharing
+wget --no-check-certificate 'https://docs.google.com/uc?export=download&id=1-BXoDYv-h0EMGz5f4hoPoceZrKgeuJLX' -O tgt_vocab.pt
+
